@@ -1,0 +1,13 @@
+h2, h3, p {
+    align-self: flex-end;
+    margin-top: 20px;
+}
+
+hr {
+    align-self: stretch;
+    margin-top: 40px;
+}
+
+th:nth-child(even), td:nth-child(even), .totals td {
+    text-align: right;
+}
